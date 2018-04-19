@@ -1,0 +1,21 @@
+{
+  "name": "recurrence-mapper",
+  "version": "1.0.0",
+  "description": "Map how many times a recurring event will occur in each month relative to a specific date",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/test.ts",
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timothy Nelson",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.22.1",
+    "typescript": "^2.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "ts-node": "^6.0.0"
+  }
+}
